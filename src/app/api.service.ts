@@ -29,6 +29,7 @@ export class ApiService {
         nombre: personaje.name,
         altura: `${personaje.height} cm`,
         ojos: (personaje.eye_color as String).toUpperCase(),
+        descripcion: 'Personaje de la película de Start Wars',
         especie: especie.name,
       }))
     );
